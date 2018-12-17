@@ -1,0 +1,10 @@
+
+
+
+
+function holamundo(){
+	alert("Bienvenido");
+	}
+
+	
+			   

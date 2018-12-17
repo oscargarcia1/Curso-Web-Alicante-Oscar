@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" href="im/arm.png" />
+	<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/micss.css" />
+	<link type="text/css" href="css/estilo.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<script src="javasc/new.js"></script>
+	<script src="javasc/jquery.js"></script>
+	<title>Dsalud* tu página más saludable</title>
+</head>
+<body onload="init();">
+
+<div class="bordecolor0" >
+		    <div class="menu">
+				<ul class="ullista" >
+					<li id="arriba" class="separado" >
+						<a href="#">
+	                        <i class="icono fas fa-bars"></i>Menú
+	                    </a>
+						<ul>
+							<li class="separado" >
+								<a id="LinkToHome" class="logo" href="index.html" onclick="">
+									<img id="logo-header" src="im/arm.png" alt="Dsalud" width="50" height="50" data-vars="{&quot;xitiPortalLevelOne&quot;:1}">
+									Dsalud
+								</a>
+							</li>  
+							<li class="separado" >
+								<a href="dsalud2.html" id="paginaactividades" onclick="" title="Actividades">
+								<i class="icono fas fa-trophy"></i>Actividades
+								</a>
+							</li>
+							<li class="separado" >
+								<a href="dsalud3.html" id="paginaformadevida" onclick="" title="Forma de Vida">
+									<i class="icono far fa-heart"></i>Forma de Vida
+								</a>										            
+							</li>
+							<li class="separado" >
+								<a href="dsalud10.html" title="Contacto">
+								<i class="icono far fa-envelope"></i>Contacto
+								</a>
+							</li>
+							<li class="separado" >
+								<a href="calculadora.html" title="Calculadora">
+								<i class="icono fas fa-screwdriver"></i>Calculadora
+								</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+<table class="calculadora">
+	<tr>
+		<td colspan="4">
+			<span id="resultado"></span>
+		</td>
+	</tr>
+	<tr>
+		<td><button id="siete">7</button></td>
+		<td><button id="ocho">8</button></td>
+		<td><button id="nueve">9</button></td>
+		<td><button id="division">/</button></td>
+	</tr>
+	<tr>
+		<td><button id="cuatro">4</button></td>
+		<td><button id="cinco">5</button></td>
+		<td><button id="seis">6</button></td>
+		<td><button id="multiplicacion">*</button></td>
+	</tr>
+	<tr>
+		<td><button id="uno">1</button></td>
+		<td><button id="dos">2</button></td>
+		<td><button id="tres">3</button></td>
+		<td><button id="resta">-</button></td>
+	</tr>
+	<tr>
+		<td><button id="igual">=</button></td>
+		<td><button id="reset">C</button></td>
+		<td><button id="cero">0</button></td>
+		<td><button id="suma">+</button></td>
+	</tr>
+</table>	
+
+<script src="javasc/javascriptcalculadora.js"></script>
+
+
+</body>
+</html>

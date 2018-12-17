@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" href="im/arm.png" />
+	<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/micss.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<script src="javasc/new.js"></script>
+	<script src="javasc/jquery.js"></script>
+	<title>Dsalud* Contacto</title>
+</head>
+<body>
+	<header>
+		<div class="encabezado" >
+			<img id="inicio" src="im/arm.png" alt="icono" />
+			<h1 id="titulo">DSALUD</h1>
+		</div>
+	</header>	
+		<div class="bordecolor0" >
+		    <div class="menu">
+				<ul class="ullista" >
+					<li id="arriba" class="separado" >
+						<a href="#">
+	                        <i class="icono fas fa-bars"></i>Menú
+	                    </a>
+						<ul>
+							<li class="separado" >
+								<a id="LinkToHome" class="logo" href="index.html" onclick="">
+									<img id="logo-header" src="im/arm.png" alt="Dsalud" width="50" height="50" data-vars="{&quot;xitiPortalLevelOne&quot;:1}">
+									Dsalud
+								</a>
+							</li>  
+							<li class="separado" >
+								<a href="dsalud2.html" id="paginaactividades" onclick="" title="Actividades">
+								<i class="icono fas fa-trophy"></i>Actividades
+								</a>
+							</li>
+							<li class="separado" >
+								<a href="dsalud3.html" id="paginaformadevida" onclick="" title="Forma de Vida">
+									<i class="icono far fa-heart"></i>Forma de Vida
+								</a>										            
+							</li>
+							<li class="separado" >
+								<a href="dsalud10.html" title="Contacto">
+								<i class="icono far fa-envelope"></i>Contacto
+								</a>
+							</li>
+							<li class="separado" >
+								<a href="calculadora.html" title="Calculadora">
+								<i class="icono fas fa-screwdriver"></i>Calculadora
+								</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	<main id="confondo" class="negrita" >
+		<form action="mensaje.html" method="post">
+			<div><h1 class="inicio2" >Contacto</h1>   
+				<div id="formulario" >
+					<div class="a" id="0" >
+						<label for="nombre">Nombre: </label>
+						<input type="text" name="nombre" id="nombre"/>
+					</div>
+					<div class="a" id="1" >
+						<label for="email">E-mail: </label>
+						<input type="email" name="email" id="email" />
+					</div>
+					<div class="b" id="2" >
+					<label for="comentarios">Comentarios:</label>
+						<textarea id="comentarios"></textarea>
+					</div>
+					<div class="b" id="tres" >
+						<input type="submit" value="Enviar"/>
+					</div>
+					<input type="hidden" name="emailalumno" value="ojgarciar10@gmail.com" />   
+					<input type="hidden" name="plantillacorreo" value=" <div><h1>Mensaje recibido:</h1></div>
+						<div><p>Se ha recibido un nuevo mensaje de formulario del usuario ** de contacto acerca de la página web </p><br/></div>
+						<div><p>El mensaje es el siguiente:</p><br/>
+						mensaje recibido </div>
+						<div>
+							<p><div>Datos del usuario:</div>
+							<div>Dirección:dirección</div>
+						<div>Teléfono: teléfono</p></div>
+						<div>Página web: pagina web</div>
+						</div>" />    
+					<input type="hidden" name="clavesecreta" value="3a881f46d2" /> 
+				</div>
+			</div> 
+		</form> 
+	</main>
+	<footer>
+	<address>2018 (c) MAIL: javi.nr.94@gmail.com</address>
+	</footer>
+</body>
